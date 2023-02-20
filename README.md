@@ -12,10 +12,10 @@ Animated cards that expand on click
 
 Animated progress bar form multi steps
 
-![Progress bar](https://user-images.githubusercontent.com/44512205/220206072-d76c7ca7-519a-4274-b53d-a06b50233a32.gif)
+<img src="https://user-images.githubusercontent.com/44512205/220206072-d76c7ca7-519a-4274-b53d-a06b50233a32.gif" width="400">
 
 
-# Extensions
+# VS Code Extensions
 
 Live Server => right click and select 'Open in Live Server' for a live rendering
 
