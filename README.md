@@ -14,6 +14,9 @@ Animated progress bar form multi steps
 
 <img src="https://user-images.githubusercontent.com/44512205/220206072-d76c7ca7-519a-4274-b53d-a06b50233a32.gif" width="400">
 
+### Rotating Navigation
+
+Rotate the entire page and show the navigation menu
 
 # VS Code Extensions
 
