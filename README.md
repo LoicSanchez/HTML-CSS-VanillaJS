@@ -18,6 +18,14 @@ Animated progress bar form multi steps
 
 Rotate the entire page and show the navigation menu
 
+### Hidden Search Widget
+
+Animated search bar that shows/hides on click
+
+### Blurry Background
+
+Blurs the background or image while loading
+
 # VS Code Extensions
 
 Live Server => right click and select 'Open in Live Server' for a live rendering
