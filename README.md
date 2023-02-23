@@ -8,6 +8,8 @@
 
 Animated cards that expand on click
 
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDFjMWM5MzU5MGVlMWY1MDBkNWU3MGQ3ODRjNmY5ZDcyN2ZhYjZkYSZjdD1n/gOGJInSs0IdOSpzL30/giphy.gif" alt="Animated Cards GIF" width="200">
+
 ### Progress Steps
 
 Animated progress bar form multi steps
@@ -26,11 +28,13 @@ Animated search bar that shows/hides on click
 
 Blurs the background or image while loading
 
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTY3NGZmYzAxZTcxNjRhZjZhMzE4OThjYTA2OTg5Zjk4NTNlZjM3NyZjdD1n/omdqEWW2V4rjNTczJw/giphy.gif" alt="Blurry Background GIF" width="200">
+
 ### Scroll Animation
 
 Animate boxes to show as we scroll - use the getBoundingClientRect
 
-<img src="https://giphy.com/embed/Yhf903JR7GjdO5YFsR" width="100%" height="100%" style="position:absolute" >
+<img src="https://media4.giphy.com/media/Yhf903JR7GjdO5YFsR/giphy.gif" alt="Animated Scroll GIF" width="200">
 
 # VS Code Extensions
 
