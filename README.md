@@ -26,6 +26,12 @@ Animated search bar that shows/hides on click
 
 Blurs the background or image while loading
 
+### Scroll Animation
+
+Animate boxes to show as we scroll - use the getBoundingClientRect
+
+<img src="https://giphy.com/embed/Yhf903JR7GjdO5YFsR" width="100%" height="100%" style="position:absolute" >
+
 # VS Code Extensions
 
 Live Server => right click and select 'Open in Live Server' for a live rendering
@@ -35,3 +41,5 @@ Live Server => right click and select 'Open in Live Server' for a live rendering
 cdnjs.com -=> faster and easier way to load library with CDN
 
 Google Fonts => https://fonts.google.com/
+
+Images => https://unsplash.com
