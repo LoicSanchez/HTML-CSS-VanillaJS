@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+
+:root {
+    --light-color: rgb(173, 255, 172);
+    --main-color: rgb(60, 147, 62);
+    --accent-color: #f7f7dd;
+    --border-radius: 8px;
+}
+/* :root {
+    --light-color: lightblue;
+    --main-color: steelblue;
+    --accent-color: #fff;
+    --border-radius: 5px;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+}
+
+.container {
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px 40px;
+    border-radius: var(--border-radius);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: var(--light-color);
+    background-image: linear-gradient(135deg, var(--light-color) 70%, var(--accent-color));
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: var(--border-radius);
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control input {
+    background-color: transparent;
+    color: var(--light-color);
+    border: 0;
+    border-bottom: 2px solid var(--accent-color);
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.form-control input:focus, .form-control input:valid {
+    outline: 0;
+    border-bottom-color: var(--light-color);
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+    color: var(--light-color);
+    transform: translateY(-30px);
+}
+

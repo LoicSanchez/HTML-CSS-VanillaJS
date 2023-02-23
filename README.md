@@ -36,6 +36,12 @@ Animate boxes to show as we scroll - use the getBoundingClientRect
 
 <img src="https://media4.giphy.com/media/Yhf903JR7GjdO5YFsR/giphy.gif" alt="Animated Scroll GIF" width="200">
 
+### Form Labels with Wave Animation
+
+Animate the labels on a form to move with a wave pattern
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVkNDM3NDYxNzgwNzAzZDkyOWYwZjIzOTZhZjBiZmRhMjYwMzhmYSZjdD1n/3GGd0QLm9lIkfvIjZk/giphy.gif" alt="Animated Wave Label GIF" width="300">
+
 # VS Code Extensions
 
 Live Server => right click and select 'Open in Live Server' for a live rendering
