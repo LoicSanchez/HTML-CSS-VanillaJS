@@ -14,7 +14,7 @@ Animated cards that expand on click
 
 Animated progress bar form multi steps
 
-<img src="https://user-images.githubusercontent.com/44512205/220206072-d76c7ca7-519a-4274-b53d-a06b50233a32.gif" width="400">
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODQwZTUzNDFkNmI0MzRjOWQ0NDkzNjRjMzI4Zjc4ZjA3OTYyMGQyMyZjdD1n/x2iwpSm4RBPYHpaG6y/giphy.gif" alt="Animated Steps GIF" width="200">
 
 ### Rotating Navigation
 
