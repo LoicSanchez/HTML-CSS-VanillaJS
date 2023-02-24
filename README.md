@@ -44,7 +44,7 @@ Animate the labels on a form to move with a wave pattern
 
 ### Sound Board
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
 
 # VS Code Extensions
 

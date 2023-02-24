@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 :root {
-    --line-border-fill: #3498db;
+    --line-border-fill: #5506b5;
     --line-border-empty: #e0e0e0;
+    --body-background-color: #a1a2a4;
+    --circle-color: #4a4b4d;
+    --btn-background-color: rgba(202, 201, 201, 0.9);
 }
 
 * {
@@ -10,7 +13,7 @@
 }
 
 body {
-    background-color: #f6f7fb;
+    background-color: var(--body-background-color);
     font-family: 'Muli', sans-serif;
     display: flex;
     align-items: center;
@@ -39,7 +42,7 @@ body {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    height: 4px;
+    height: 8px;
     width: 100%;
     z-index: -1;
     transition: 0.4s ease;
@@ -51,18 +54,19 @@ body {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    height: 4px;
+    height: 6px;
     width: 0%;
     z-index: -1;
     transition: 0.4s ease;
 }
 
 .circle {
-    background-color: white;
-    color: #999;
+    background-color: var(--line-border-empty);
+    font-size: 1.8rem;
+    color: var(--circle-color);
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,22 +76,24 @@ body {
 
 .circle.active {
     border-color: var(--line-border-fill);
+    color: var(--line-border-fill);
 }
 
 .btn {
     background-color: var(--line-border-fill);
-    color: white;
+    color: var(--line-border-empty);
     border: 0;
-    border-radius: 6px;
+    border-radius: 8px;
     cursor: pointer;
     font-family: inherit;
     padding: 8px 30px;
     margin: 5px;
-    font-size: 14px;
+    font-size: 1.6rem;
+    transition: transform 0.3s ease-in-out;
 }
 
 .btn:active {
-    transform: scale(0.98);
+    transform: scale(0.9);
 }
 
 .btn:focus {
@@ -97,4 +103,5 @@ body {
 .btn:disabled {
     background-color: var(--line-border-empty);
     cursor: not-allowed;
+    color: var(--line-border-fill);
 }
