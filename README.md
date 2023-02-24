@@ -42,6 +42,10 @@ Animate the labels on a form to move with a wave pattern
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVkNDM3NDYxNzgwNzAzZDkyOWYwZjIzOTZhZjBiZmRhMjYwMzhmYSZjdD1n/3GGd0QLm9lIkfvIjZk/giphy.gif" alt="Animated Wave Label GIF" width="300">
 
+### Sound Board
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
 # VS Code Extensions
 
 Live Server => right click and select 'Open in Live Server' for a live rendering
