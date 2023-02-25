@@ -24,6 +24,26 @@ body {
 }
 
 h1 {
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    white-space: nowrap; 
+    text-transform: capitalize;
+    z-index: 10;
+}
+
+#main {
+    transition: opacity 0.8s linear;
+}
+
+#main.fade {
+    opacity: 0;
+}
+
+.split h1 {
     font-size: 4rem;
     color: white;
     position: absolute;
