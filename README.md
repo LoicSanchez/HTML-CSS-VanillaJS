@@ -28,6 +28,12 @@ Split screen with button, animated on hover
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQwMGUzN2I1YzMzZGE2N2MyNWFiNGJiZDRjMzQ4ODkzMDQ5YzJlMCZjdD1n/gZMOmGh8oPju7Iqfyn/giphy.gif" alt="Split screen GIF" width="400">
 
+### Dad Joke
+
+Generate a Dad Joke on every click. Try not to laugh! Using the fetch API https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNjNDY2MzRjZjcwMzI3ZDE4YWMyYTk3NTJmMTljNGY3YzRiM2M2MCZjdD1n/vnQyBj0Q5zUxrWgkuB/giphy.gif" alt="Dad Joke GIF" width="400">
+
 ### Expanding Cards (in progress)
 
 Animated cards that expand on click
@@ -52,12 +58,6 @@ Animate boxes to show as we scroll - use the getBoundingClientRect
 
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
 
-### Dad Joke (in progress)
-
-Using the fetch API https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNjNDY2MzRjZjcwMzI3ZDE4YWMyYTk3NTJmMTljNGY3YzRiM2M2MCZjdD1n/vnQyBj0Q5zUxrWgkuB/giphy.gif" alt="Dad Joke GIF" width="400">
-
 # VS Code Extensions
 
 Live Server => right click and select 'Open in Live Server' for a live rendering
@@ -69,3 +69,5 @@ cdnjs.com -=> faster and easier way to load library with CDN
 Google Fonts => https://fonts.google.com/
 
 Images => https://unsplash.com
+
+Dad Joke API => https://icanhazdadjoke.com/
