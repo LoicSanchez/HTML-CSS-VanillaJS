@@ -141,7 +141,7 @@ h1 {
 }
 
 @media (max-width: 800px) {
-    h1 {
+     .split h1 {
         font-size: 2rem;
         top: 30%;
     }
