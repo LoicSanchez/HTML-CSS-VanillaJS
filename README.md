@@ -6,33 +6,63 @@
 
 ### Blurry Background
 
-Blurs the background or image while loading
+What? Blurs the background or image while the page is loading.
+
+How? We use the filter CSS property https://developer.mozilla.org/en-US/docs/Web/CSS/filter and the JavaScript setInterval() method https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Blurry%20Background/
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTY3NGZmYzAxZTcxNjRhZjZhMzE4OThjYTA2OTg5Zjk4NTNlZjM3NyZjdD1n/omdqEWW2V4rjNTczJw/giphy.gif" alt="Blurry Background GIF" width="200">
 
 ### Form Labels with Wave Animation
 
-Animate the labels on a form to move with a wave pattern
+What? Animate the labels on a form to move with a wavy pattern.
+
+How? We use JavaScript to split the text into <span> elements and dynamically assign a different transition-delay to each of them.
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Wave%20Label/
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVkNDM3NDYxNzgwNzAzZDkyOWYwZjIzOTZhZjBiZmRhMjYwMzhmYSZjdD1n/3GGd0QLm9lIkfvIjZk/giphy.gif" alt="Animated Wave Label GIF" width="300">
 
 ### Progress Steps
 
-Animated progress bar with multiple steps
+What? An animated progress bar with multiple steps.
+
+How? We use JavaScript to change the class of the active element and CSS to apply a different style to active elements. We also set the width of the progress bar in JavaScript.
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Progress%20Steps/
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODQwZTUzNDFkNmI0MzRjOWQ0NDkzNjRjMzI4Zjc4ZjA3OTYyMGQyMyZjdD1n/x2iwpSm4RBPYHpaG6y/giphy.gif" alt="Animated Steps GIF" width="200">
 
 ### Split Screens
 
-Split screen with button, animated on hover
+What? Split the screen in half and animation on hover.
+
+How? We use JavaScript to add events on mouse enter and mouse leave and change the class of the elements. We use CSS to apply a different widths and opacity to the elements.
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Split%20Landing/
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQwMGUzN2I1YzMzZGE2N2MyNWFiNGJiZDRjMzQ4ODkzMDQ5YzJlMCZjdD1n/gZMOmGh8oPju7Iqfyn/giphy.gif" alt="Split screen GIF" width="400">
 
 ### Dad Joke
 
-Generate a Dad Joke on every click. Try not to laugh! Using the fetch API https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+What? Generate a Dad Joke on every click. Try not to laugh!
+
+How? We use the JavaScript fetch API https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API to fetch a joke and update the innerHTML value of the element.
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Dad%20Joke/
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNjNDY2MzRjZjcwMzI3ZDE4YWMyYTk3NTJmMTljNGY3YzRiM2M2MCZjdD1n/vnQyBj0Q5zUxrWgkuB/giphy.gif" alt="Dad Joke GIF" width="400">
+
+### Background Parallax
+
+What? A landing page with a background animated with a Parallax effect.
+
+How? We use JavaScript to listen to the mousemove event and apply a transform (translate) to each image based on the mouse coordinates.
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Background%20Parallax/
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTA3Y2QxYTk4NTMwNTU5YzdmMmQ3ZThlMzVhMjgwZDUxODk4NDNlNSZjdD1n/DMXqhIDHyXkQwRStSz/giphy.gif" alt="Background Parallax GIF" width="400">
 
 ### Expanding Cards (in progress)
 
