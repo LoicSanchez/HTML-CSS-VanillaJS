@@ -64,11 +64,19 @@ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Background%20Para
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTA3Y2QxYTk4NTMwNTU5YzdmMmQ3ZThlMzVhMjgwZDUxODk4NDNlNSZjdD1n/DMXqhIDHyXkQwRStSz/giphy.gif" alt="Background Parallax GIF" width="400">
 
+### Scroll Animation
+
+What? Shows the box appear with animation as we scroll.
+
+How? We use JavaScript to listen to the scroll event and apply a class to the elements based on their position in the viewport using getBoundingClientRect https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect. We use CSS to apply a transform (translate X or Y) to that class.
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Scroll%20Animation/
+
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDlmZjYyMDA1YTQ4YzEyYWY4MGY1OTZiNGJmZGEyY2U3MDMzYTA5ZCZjdD1n/m3tFyPCU656hCVXgaK/giphy.gif" alt="Scroll Animation GIF" width="300">
+
 ### Expanding Cards (in progress)
 
 Animated cards that expand on click
-
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDFjMWM5MzU5MGVlMWY1MDBkNWU3MGQ3ODRjNmY5ZDcyN2ZhYjZkYSZjdD1n/gOGJInSs0IdOSpzL30/giphy.gif" alt="Animated Cards GIF" width="200">
 
 ### Rotating Navigation (in progress)
 
@@ -77,12 +85,6 @@ Rotate the entire page and show the navigation menu
 ### Hidden Search Widget (in progress)
 
 Animated search bar that shows/hides on click
-
-### Scroll Animation (in progress)
-
-Animate boxes to show as we scroll - use the getBoundingClientRect
-
-<img src="https://media4.giphy.com/media/Yhf903JR7GjdO5YFsR/giphy.gif" alt="Animated Scroll GIF" width="200">
 
 ### Sound Board (in progress)
 
@@ -101,3 +103,5 @@ Google Fonts => https://fonts.google.com/
 Images => https://unsplash.com
 
 Dad Joke API => https://icanhazdadjoke.com/
+
+Create cool gradients => https://cssgradient.io
