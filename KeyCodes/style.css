@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+
+:root {
+    --body-background: #dcbdbd;
+    --text-title-color: #555;
+    --key-background: #dddcdc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-background);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.key {
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: var(--key-background);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 15px;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: bold;
+    min-width: 150px;
+    position: relative;
+}
+
+.key span {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: var(--text-title-color);
+    font-size: 1.4rem;
+}
+
+.subtitle {
+    color: var(--text-title-color);
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#copy i {
+    font-size: 2rem;
+    color: var(--text-title-color);
+}
+#copy p {
+    font-size: 1rem;
+    color: var(--text-title-color);
+    margin: 0;
+    line-height: 2rem;
+    font-style: italic;
+}
+
+#copy {
+    margin-left: 10px;
+    background: none;
+    outline: 0;
+    border: 0;
+}

@@ -66,7 +66,7 @@ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Background%20Para
 
 ### Scroll Animation
 
-What? Shows the box appear with animation as we scroll.
+What? The boxes appear with animation as we scroll.
 
 How? We use JavaScript to listen to the scroll event and apply a class to the elements based on their position in the viewport using getBoundingClientRect https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect. We use CSS to apply a transform (translate X or Y) to that class.
 
@@ -74,9 +74,23 @@ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Scroll%20Animatio
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDlmZjYyMDA1YTQ4YzEyYWY4MGY1OTZiNGJmZGEyY2U3MDMzYTA5ZCZjdD1n/m3tFyPCU656hCVXgaK/giphy.gif" alt="Scroll Animation GIF" width="300">
 
-### Expanding Cards (in progress)
+### Key Codes
+
+What? Easily see and copy the Key Codes when the keyboard is pressed.
+
+How? We use JavaScript to listen to the keydown event and get the key and code. We use the navigator.clipboard API to copy the key to the clipboard https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard.
+
+Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/KeyCodes/
+
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjE4MmU4NWRhYzVjM2YzMTM4ZWJjZWM5OWQ1ZWZiMTZiOThlYmRmZSZjdD1n/J2JIZFYfpNqG97AkHq/giphy.gif" alt="Animated GIF" width="300">
+
+### Expanding Cards
 
 Animated cards that expand on click
+
+### FAQ Collapse
+
+FAq with collapse/expand
 
 ### Rotating Navigation (in progress)
 
@@ -105,3 +119,5 @@ Images => https://unsplash.com
 Dad Joke API => https://icanhazdadjoke.com/
 
 Create cool gradients => https://cssgradient.io
+
+Design Inspiration => https://dribbble.com
