@@ -86,21 +86,37 @@ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/KeyCodes/
 
 ### Expanding Cards
 
-Animated cards that expand on click
+What? List of cards that expand on click.
+
+How? We use JavaScript to set the active class to the clicked element and remove that class from other elements. We use CSS to show the active card.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Expanding%20Cards
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJhNjBiNDBlMzEzMjA5M2JjMzZkZThhNjliNzYwZTk2YTQ1ZDZjMyZjdD1n/5oCeYHp0FvqnxoFGsR/giphy.gif" alt="Expanding Cards GIF" width="300">
+
+## Coming soon!
 
 ### FAQ Collapse
 
-FAq with collapse/expand
+FAQ with collapse/expand
 
-### Rotating Navigation (in progress)
+### 3D Parallax Cards
 
-Rotate the entire page and show the navigation menu
+Cards with 3D Parallax effect
 
-### Hidden Search Widget (in progress)
+### Hidden Search Widget
 
 Animated search bar that shows/hides on click
 
-### Sound Board (in progress)
+### Animated Side-Collapse Navigation Menu
+
+Navigation menu that collapses sideways with animation
+
+### Rotating Navigation
+
+Rotate the entire page and show the navigation menu
+
+### Sound Board
 
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
 
@@ -120,4 +136,8 @@ Dad Joke API => https://icanhazdadjoke.com/
 
 Create cool gradients => https://cssgradient.io
 
+Create color palettes => https://coolors.co
+
 Design Inspiration => https://dribbble.com
+
+Icons => https://fontawesome.com

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
+:root {
+    --background-color: #327590;
+}
 * {
     box-sizing: border-box;
 }
@@ -11,7 +14,8 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    margin:0;
+    margin: 0;
+    background-color: var(--background-color);
 }
 
 .container {
