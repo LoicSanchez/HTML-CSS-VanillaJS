@@ -94,6 +94,26 @@ How? We use JavaScript to set the active class to the clicked element and remove
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJhNjBiNDBlMzEzMjA5M2JjMzZkZThhNjliNzYwZTk2YTQ1ZDZjMyZjdD1n/5oCeYHp0FvqnxoFGsR/giphy.gif" alt="Expanding Cards GIF" width="300">
 
+### Hidden Search Widget
+
+What? A hidden search that shows/expands on click.
+
+How? We use JavaScript to set the active class. We use CSS to show the active elements and apply a transform with transition.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Hidden%20Search
+
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjhjNjliNGEyZDEyNGI1MTA0NDgwNTk3OGI2ZGI5ZWM3OTdhMDJmOSZjdD1n/7ecui6YjcTrbL2kepF/giphy.gif" alt="Animated GIF" width="200">
+
+### Animated Side-Collapse Navigation Menu
+
+What? Navigation menu that collapses sideways with animation.
+
+How? We use JavaScript to set the active class. We use CSS to show the active elements and apply a transform with transition.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Animated%20Navigation%20Menu
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDhiNWVhNmVkN2Y0MzQ4MWNlOTBiYzQxNWRiMDEwOWQ0M2RlZDE1MSZjdD1n/1uSH0eJUSZPcfUp5kb/giphy.gif" alt="Animated GIF" width="200">
+
 ## Coming soon!
 
 ### FAQ Collapse
@@ -103,14 +123,6 @@ FAQ with collapse/expand
 ### 3D Parallax Cards
 
 Cards with 3D Parallax effect
-
-### Hidden Search Widget
-
-Animated search bar that shows/hides on click
-
-### Animated Side-Collapse Navigation Menu
-
-Navigation menu that collapses sideways with animation
 
 ### Rotating Navigation
 
