@@ -92,7 +92,7 @@ How? We use JavaScript to set the active class to the clicked element and remove
 
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Expanding%20Cards
 
-<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJhNjBiNDBlMzEzMjA5M2JjMzZkZThhNjliNzYwZTk2YTQ1ZDZjMyZjdD1n/5oCeYHp0FvqnxoFGsR/giphy.gif" alt="Expanding Cards GIF" width="300">
+<img src="https://media0.giphy.com/media/5oCeYHp0FvqnxoFGsR/giphy.gif" alt="Expanding Cards GIF" width="300">
 
 ### Hidden Search Widget
 
