@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-gradient: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: var(--main-gradient);
+    perspective: 2000px;
+}
+h3 {
+    color: lightgrey;
+    font-size: 16px;
+    margin-bottom: 30px;
+    transform: translateZ(25px);
+}
+h1 {
+    color: lightgrey;
+    font-size: 32px;
+    margin-bottom: 25px;
+    transform: translateZ(35px);
+}
+.cards-container {
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px 10px rgba(0,0,0,0.27);
+    padding: 30px 35px;
+    perspective: 1800px;
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+}
+.cards-container::before {
+    content: '';
+    background: url('') bottom / cover no-repeat;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.45;
+}
+
+.card {
+    height: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.6);
+    overflow: hidden;
+    perspective: 1200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(35px);
+    transition: transform 300ms ease-out;
+    width: 175px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:not(:last-child){
+    margin-right: 30px;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.9);
+    transform: translateZ(80px);
+    transition: 300ms ease-out;
+}
+
+.card-text {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 100%);
+    bottom: 0;
+    padding-bottom: 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.card-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-img {
+    position: relative;
+    height: 100%;
+}
+
+.card-bg {
+    position: absolute;
+    bottom: -50px;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+}
+
+.card-one > .card-img {
+    top: 54px;
+    right: -10px;
+}
+.card-one > .card-bg {
+    background: url('https://wallpapercave.com/uwp/uwp2425705.jpeg') center / cover no-repeat;
+}
+.card-two > .card-img {
+    top: 45px;
+    left: 30px;
+}
+.card-two > .card-bg {
+    background: url('http://wallpapercave.com/wp/QScQGMQ.jpg') center / cover no-repeat;
+}
+.card-three > .card-img {
+    top: 60px;
+    left: -6px;
+}
+.card-three > .card-bg {
+    background: url('http://wallpapercave.com/wp/Ybe5oKZ.jpg') center / cover no-repeat;
+}

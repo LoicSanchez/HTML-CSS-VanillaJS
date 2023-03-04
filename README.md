@@ -114,15 +114,25 @@ How? We use JavaScript to set the active class. We use CSS to show the active el
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDhiNWVhNmVkN2Y0MzQ4MWNlOTBiYzQxNWRiMDEwOWQ0M2RlZDE1MSZjdD1n/1uSH0eJUSZPcfUp5kb/giphy.gif" alt="Animated GIF" width="200">
 
+### 3D Parallax Cards
+
+What? Cards with 3D Parallax effect.
+
+How? We use JavaScript to listen to the mousemove event and dynamically transform (rotate and translate) elements. The key is to use the CSS transform-style of preserve-3d https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/3D%20Parallax%20Cards
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmUwMWNkMzJiNDhmNzg5OTNjNzhkYWJiOTg0ODI0YjM4NTM1ZjlmOSZjdD1n/pChi4vMw1i87vH56Cn/giphy.gif" alt="3D Parallax Cards GIF" width="350">
+
 ## Coming soon!
+
+### Wavy Loader
+
+Cool loader using @keyframes https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes hue-rotate https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/hue-rotate
 
 ### FAQ Collapse
 
 FAQ with collapse/expand
-
-### 3D Parallax Cards
-
-Cards with 3D Parallax effect
 
 ### Rotating Navigation
 
@@ -131,6 +141,10 @@ Rotate the entire page and show the navigation menu
 ### Sound Board
 
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
+### Hexagon
+
+hue-rotate https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/hue-rotate and clip-path https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
 
 # VS Code Extensions
 
