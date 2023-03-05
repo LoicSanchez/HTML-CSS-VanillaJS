@@ -124,11 +124,17 @@ How? We use JavaScript to listen to the mousemove event and dynamically transfor
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmUwMWNkMzJiNDhmNzg5OTNjNzhkYWJiOTg0ODI0YjM4NTM1ZjlmOSZjdD1n/pChi4vMw1i87vH56Cn/giphy.gif" alt="3D Parallax Cards GIF" width="350">
 
-## Coming soon!
-
 ### Wavy Loader
 
-Cool loader using @keyframes https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes hue-rotate https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/hue-rotate
+What? Cool loading animation
+
+How? We use CSS @keyframes https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes to animate the position of the circles and color with hue-rotate https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/hue-rotate. We use JavaScript to create the elements and assign different size and transition-delay.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Wavy%20Loader
+
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTExOGVkN2UwOGU0OGUwNDY0M2RmY2QwZjM3OGRiNTViMjdiMmI1NyZjdD1n/7DsrTdh1Ocs2NmBNzC/giphy.gif" alt="Wavy Loader GIF" width="250>
+
+## Coming soon!
 
 ### FAQ Collapse
 

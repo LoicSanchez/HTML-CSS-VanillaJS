@@ -1,0 +1,52 @@
+
+:root {
+    --background-color: rgb(24, 0, 34);
+	--circle-color: #cbf3ab;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: var(--background-color);
+}
+.loader {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	transform-style: preserve-3d;
+	transform: perspective(500px) rotateX(60deg) translateZ(-50px);
+}
+.loader span {
+	position: absolute;
+	display: block;
+	border: 2px solid var(--circle-color);
+	box-sizing: border-box;
+	border-radius: 50%;
+	animation: animate 3s ease-in-out infinite, animate2 5s ease-in-out infinite;
+}
+@keyframes animate {
+	0% {
+		transform: translateZ(0px);
+	}
+	50% {
+		transform: translateZ(200px);
+	}
+	100% {
+		transform: translateZ(0px);
+	}
+}
+
+@keyframes animate2 {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(360deg);
+	}
+}
