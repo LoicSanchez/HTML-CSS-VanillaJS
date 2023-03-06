@@ -126,7 +126,7 @@ How? We use JavaScript to listen to the mousemove event and dynamically transfor
 
 ### Wavy Loader
 
-What? Cool loading animation
+What? Cool loading animation.
 
 How? We use CSS @keyframes https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes to animate the position of the circles and color with hue-rotate https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/hue-rotate. We use JavaScript to create the elements and assign different size and transition-delay.
 
@@ -134,11 +134,21 @@ How? We use CSS @keyframes https://developer.mozilla.org/en-US/docs/Web/CSS/@key
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTExOGVkN2UwOGU0OGUwNDY0M2RmY2QwZjM3OGRiNTViMjdiMmI1NyZjdD1n/7DsrTdh1Ocs2NmBNzC/giphy.gif" alt="Wavy Loader GIF" width="250>
 
-## Coming soon!
-
 ### FAQ Collapse
 
-FAQ with collapse/expand
+What? FAQ with collapse/expand.
+
+How? We use JavaScript to set the active class using the parentNode to get the parent element. We use CSS to show the active elements.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/FAQ%20Collapse
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjUyODYwYzdmNDQxY2NhMTFlMTVhY2M3NTQ3YWJiZmRiYmM5NzMxYyZjdD1n/Bm70bOUt6JoLsuEpFl/giphy.gif" alt="FAQ Collapse GIF" width="300">
+
+## Coming soon!
+
+### animated Likes/Followers Counter
+
+Likes or Followers counter that increment on loading.
 
 ### Rotating Navigation
 
