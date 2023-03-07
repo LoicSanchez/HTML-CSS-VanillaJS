@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+
+:root {
+    --background-color: #cb932c;
+    --text-color: #080277;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.counter {
+    font-size: 4rem;
+    margin-top: 10px;
+
+}
+
+@media (max-width: 580px){
+    body {
+        flex-direction: column;
+    }
+}

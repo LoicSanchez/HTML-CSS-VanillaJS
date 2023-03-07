@@ -146,9 +146,19 @@ How? We use JavaScript to set the active class using the parentNode to get the p
 
 ## Coming soon!
 
-### animated Likes/Followers Counter
+### Animated Likes/Followers Counter
 
-Likes or Followers counter that increment on loading.
+What? Likes or Followers counter that increment on loading.
+
+How? We use JavaScript to update the value by increments using setTimeout. We define the target value in an HTML attribute.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Likes%20Counter
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGJmYTYxMTE5NzRkNjgyYjEwMmVmZGU2ZmM5NTYzNzNkMDllMmIyOSZjdD1n/SujGJnieNwuYuSX8GQ/giphy.gif" alt="Likes Counter GIF" width="300">
+
+### Feedback Form
+
+Simple form to capture quick feedback.
 
 ### Rotating Navigation
 
