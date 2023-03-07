@@ -92,7 +92,7 @@ How? We use JavaScript to set the active class to the clicked element and remove
 
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Expanding%20Cards
 
-<img src="https://media0.giphy.com/media/5oCeYHp0FvqnxoFGsR/giphy.gif" alt="Expanding Cards GIF" width="300">
+<img src="https://media3.giphy.com/media/5oCeYHp0FvqnxoFGsR/giphy.gif" alt="Expanding Cards GIF" width="300">
 
 ### Hidden Search Widget
 
@@ -132,7 +132,7 @@ How? We use CSS @keyframes https://developer.mozilla.org/en-US/docs/Web/CSS/@key
 
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Wavy%20Loader
 
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTExOGVkN2UwOGU0OGUwNDY0M2RmY2QwZjM3OGRiNTViMjdiMmI1NyZjdD1n/7DsrTdh1Ocs2NmBNzC/giphy.gif" alt="Wavy Loader GIF" width="250>
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTExOGVkN2UwOGU0OGUwNDY0M2RmY2QwZjM3OGRiNTViMjdiMmI1NyZjdD1n/7DsrTdh1Ocs2NmBNzC/giphy.gif" alt="Wavy Loader GIF" width="250">
 
 ### FAQ Collapse
 
@@ -144,8 +144,6 @@ How? We use JavaScript to set the active class using the parentNode to get the p
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjUyODYwYzdmNDQxY2NhMTFlMTVhY2M3NTQ3YWJiZmRiYmM5NzMxYyZjdD1n/Bm70bOUt6JoLsuEpFl/giphy.gif" alt="FAQ Collapse GIF" width="300">
 
-## Coming soon!
-
 ### Animated Likes/Followers Counter
 
 What? Likes or Followers counter that increment on loading.
@@ -155,6 +153,8 @@ How? We use JavaScript to update the value by increments using setTimeout. We de
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Likes%20Counter
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGJmYTYxMTE5NzRkNjgyYjEwMmVmZGU2ZmM5NTYzNzNkMDllMmIyOSZjdD1n/SujGJnieNwuYuSX8GQ/giphy.gif" alt="Likes Counter GIF" width="300">
+
+## Coming soon!
 
 ### Feedback Form
 
