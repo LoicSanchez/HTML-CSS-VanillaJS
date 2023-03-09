@@ -154,11 +154,21 @@ How? We use JavaScript to update the value by increments using setTimeout. We de
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGJmYTYxMTE5NzRkNjgyYjEwMmVmZGU2ZmM5NTYzNzNkMDllMmIyOSZjdD1n/SujGJnieNwuYuSX8GQ/giphy.gif" alt="Likes Counter GIF" width="300">
 
-## Coming soon!
-
 ### Feedback Form
 
-Simple form to capture quick feedback.
+What? Simple form to capture quick feedback.
+
+How? We use a JavaScript event listener but leverage event bubbling to write the event handler only once https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Feedback%20Survey
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc0OTM0MDAzMjQyZmZhNGVhMGZjOThlM2Y3NDY3ZTFkYjA2MTk4MyZjdD1n/D5NuV41d2TFIeE7dXQ/giphy.gif" alt="Feedback Form GIF" width="300">
+
+## Coming soon!
+
+### Button with Ripple Effect Click
+
+Animate a ripple when a button is clicked. Listen to click event and calculate x and y with clientX/buttonLeft to set top and left on style.
 
 ### Rotating Navigation
 
@@ -167,10 +177,6 @@ Rotate the entire page and show the navigation menu
 ### Sound Board
 
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
-
-### Hexagon
-
-hue-rotate https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/hue-rotate and clip-path https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
 
 # VS Code Extensions
 
