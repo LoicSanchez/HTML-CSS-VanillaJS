@@ -164,11 +164,17 @@ How? We use a JavaScript event listener but leverage event bubbling to write the
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc0OTM0MDAzMjQyZmZhNGVhMGZjOThlM2Y3NDY3ZTFkYjA2MTk4MyZjdD1n/D5NuV41d2TFIeE7dXQ/giphy.gif" alt="Feedback Form GIF" width="300">
 
-## Coming soon!
-
 ### Button with Ripple Effect Click
 
-Animate a ripple when a button is clicked. Listen to click event and calculate x and y with clientX/buttonLeft to set top and left on style.
+What? Animate a ripple when a button is clicked.
+
+How? Listen to click event and calculate x and y with clientX/buttonLeft to set top and left on style.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Button%20Ripple
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjQwMTUxODc4NTY0MGU4Y2E4Njc1YjI3NjlkNDUyN2Y2ZDY0NDQ0NSZjdD1n/7MVcTIJzZIYigWG8FP/giphy.gif" alt="Animated GIF" width="300">
+
+## Coming soon!
 
 ### Rotating Navigation
 

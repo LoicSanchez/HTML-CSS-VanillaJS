@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --background-color: #ffd6ff;
+    --button-color-b-1: #bbd0ff;
+    --button-color-b-2: #b8c0ff;
+    --button-color-b-3: #c8b6ff;
+    --button-color-2: #000000;
+    --circle-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+button {
+    color: var(--button-color-2);
+    border: 1px solid var(--button-color-1);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0;
+}
+
+button:nth-child(1){
+    background-color: var(--button-color-b-1);
+}
+button:nth-child(2){
+    background-color: var(--button-color-b-2);
+}
+button:nth-child(3){
+    background-color: var(--button-color-b-3);
+}
+
+button:focus {
+    outline: 0;
+}
+
+button .circle {
+    position: absolute;
+    background-color: var(--circle-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+    to {
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0;
+    }
+}
