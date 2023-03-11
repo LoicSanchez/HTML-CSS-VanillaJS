@@ -176,6 +176,20 @@ How? Listen to click event and calculate x and y with clientX/buttonLeft to set 
 
 ## Coming soon!
 
+### Toast Notifications
+
+What? Show a toast animation when the button is clicked.
+
+How? Create a new DOM element with JavaScript on click, use setTimeout to make it disappear. We use CSS position: fixed to position the notifications in the corner.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Toast%20Notification
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGQ5NTg2NzI3ODAwMjRiNmJhN2ZmM2NhZDc4NzdjZDhiMjE2MjZmNyZjdD1n/Z8MOhKLdwKWIMqEKE2/giphy.gif" alt="Toast Notifications GIF" width="300">
+
+### Drag and Drop
+
+### Timed Accordion
+
 ### Rotating Navigation
 
 Rotate the entire page and show the navigation menu
