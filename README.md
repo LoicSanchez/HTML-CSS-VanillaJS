@@ -174,8 +174,6 @@ How? Listen to click event and calculate x and y with clientX/buttonLeft to set 
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjQwMTUxODc4NTY0MGU4Y2E4Njc1YjI3NjlkNDUyN2Y2ZDY0NDQ0NSZjdD1n/7MVcTIJzZIYigWG8FP/giphy.gif" alt="Animated GIF" width="300">
 
-## Coming soon!
-
 ### Toast Notifications
 
 What? Show a toast animation when the button is clicked.
@@ -186,7 +184,17 @@ How? Create a new DOM element with JavaScript on click, use setTimeout to make i
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGQ5NTg2NzI3ODAwMjRiNmJhN2ZmM2NhZDc4NzdjZDhiMjE2MjZmNyZjdD1n/Z8MOhKLdwKWIMqEKE2/giphy.gif" alt="Toast Notifications GIF" width="300">
 
-### Drag and Drop
+### Drag And Drop
+
+What? Visual animation when dragging and dropping.
+
+How? We use JavaScript to listen to the dragstart, dragend, dragover, dragenter, dragleave and drop events (https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API), then assign classes and move DOM elements.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Drag%20And%20Drop
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTU1MWYwZGE4YjZmNTEwYzE1YWM1MWRkMTcyYzZjNDJjZjBkYmE0MSZjdD1n/pKykPaAwdMXxX67Tr4/giphy.gif" alt="Drag and Drop GIF" width="450">
+
+## Coming soon!
 
 ### Timed Accordion
 
@@ -219,3 +227,5 @@ Create color palettes => https://coolors.co
 Design Inspiration => https://dribbble.com
 
 Icons => https://fontawesome.com
+
+Random User API => https://randomuser.me
