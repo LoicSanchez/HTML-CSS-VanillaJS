@@ -194,6 +194,16 @@ How? We use JavaScript to listen to the dragstart, dragend, dragover, dragenter,
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTU1MWYwZGE4YjZmNTEwYzE1YWM1MWRkMTcyYzZjNDJjZjBkYmE0MSZjdD1n/pKykPaAwdMXxX67Tr4/giphy.gif" alt="Drag and Drop GIF" width="450">
 
+### Styled Checkboxes (With Dark Mode)
+
+What? Checkboxes with styling for a nice look and dark mode compatibility.
+
+How? A lot of CSS! We use JavaScript to set a dark mode class to the page.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Checkboxes
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODk2ZmFiODhiNGQzM2NjNWY0NGRjNzg5MTUzODFiZTRhNzZjMGFjOCZjdD1n/zpzBSxwifgdevdN4Mh/giphy.gif" alt="Styled Checkboxes With Dark Mode GIF" width="450">
+
 ## Coming soon!
 
 ### Timed Accordion
@@ -205,6 +215,12 @@ Rotate the entire page and show the navigation menu
 ### Sound Board
 
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
+### Custom Range Slider
+
+### Split Screens Vertical
+
+### Text Typewriter Effect
 
 # VS Code Extensions
 

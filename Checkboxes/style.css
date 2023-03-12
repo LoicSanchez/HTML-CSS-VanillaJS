@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --background-primary: #f0f0f0;
+    --background-secondary: #b6b4b4;
+    --background-tertiary: #e0e0e0;
+    --primary: #8e44ad;
+    --secondary: #fff;
+    --tertiary: #f2c923;
+    --text-primary: #121212;
+    --box-shadow:rgba(0,0,0,0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html.dark {
+    --background-primary: #121212;
+    --background-secondary: #b6b4b4;
+    --background-tertiary: #282828;
+    --primary: #712990;
+    --secondary: #fff;
+    --tertiary: #bd9e20;
+    --text-primary: #d0d0d0;
+    --box-shadow:rgba(255,255,255,0.1);
+}
+
+html {
+    background-color: var(--background-primary);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    color: var(--text-primary);
+    position: relative;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.container {
+    border: 0;
+    border-radius: 15px;
+    padding: 20px 30px;
+    background-color: var(--background-tertiary);
+    box-shadow: 5px 5px 10px var(--box-shadow);
+}
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: 250px;
+}
+
+#dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 30px;;
+}
+
+.toggle {
+    visibility: hidden;
+}
+
+.label {
+    position: relative;
+    background-color: var(--background-secondary);
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px 0;
+    width: 80px;
+    height: 40px;
+}
+
+.toggle:checked + .label {
+    background-color: var(--primary);
+}
+#dark-mode-toggle .toggle:checked + .label {
+    background-color: var(--tertiary);
+}
+
+.ball {
+    background: var(--secondary);
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    align-items: center;
+    justify-content: center;
+    animation: slideOff 0.3s linear forwards;
+}
+
+.toggle:checked + .label .ball {
+    animation: slideOn 0.3s linear forwards;
+}
+
+@keyframes slideOn {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+    50% {
+        transform: translateX(20px) scale(1);
+    }
+    100% {
+        transform: translateX(40px) scale(1);
+    }
+}
+
+@keyframes slideOff {
+    0% {
+        transform: translateX(40px) scale(1);
+    }
+    50% {
+        transform: translateX(20px) scale(1);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
