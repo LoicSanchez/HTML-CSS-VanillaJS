@@ -204,9 +204,17 @@ How? A lot of CSS! We use JavaScript to set a dark mode class to the page.
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODk2ZmFiODhiNGQzM2NjNWY0NGRjNzg5MTUzODFiZTRhNzZjMGFjOCZjdD1n/zpzBSxwifgdevdN4Mh/giphy.gif" alt="Styled Checkboxes With Dark Mode GIF" width="450">
 
-## Coming soon!
-
 ### Timed Accordion
+
+What? A list of content cards that change on a set interval.
+
+How? The content is set by JavaScript using a setInterval function. The progress bar is animated with CSS.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Timed%20Accordion
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWM4MGZiMmVmYTllNGY3ODFjNTJlNDYwOGNhNTQ4ZDJkYTkzOTE3ZiZjdD1n/DQVYWZD8BpyN1k9go9/giphy.gif" alt="Timed Accordion GIF" width="400">
+
+## Coming soon!
 
 ### Rotating Navigation
 
