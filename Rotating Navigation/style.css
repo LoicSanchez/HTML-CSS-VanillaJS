@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+:root {
+    --background-color-primary: #333;
+    --background-color-secondary: #fafafa;
+    --color-primary: #222;
+    --color-primary-2: #555;
+    --color-primary-3: #333;
+    --color-secondary: #ff7979;
+    --color-tertiary: white;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -8,12 +18,12 @@ body {
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
     margin:0;
-    background-color: #333;
-    color: #222;
+    background-color: var(--background-color-primary);
+    color: var(--color-primary);
 }
 
 .container {
-    background-color: #fafafa;
+    background-color: var(--background-color-secondary);
     transform-origin: top left;
     transition: transform 0.5s linear;
     width: 100vw;
@@ -36,7 +46,7 @@ body {
 }
 
 .circle {
-    background-color: #ff7979;
+    background-color: var(--color-secondary);
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -53,7 +63,7 @@ body {
     background: transparent;
     border: 0;
     font-size: 26px;
-    color: #fff;
+    color: var(--color-tertiary);
 }
 .circle button:focus {
     outline: none;
@@ -87,13 +97,13 @@ nav ul {
 
 nav ul li {
     text-transform: uppercase;
-    color: white;
+    color: var(--color-tertiary);
     margin:40px 0;
     transform: translateX(-100%);
     transition: transform 0.4s ease-in;
 }
 nav ul li a {
-    color: white;
+    color: var(--color-tertiary);
     text-decoration: none;
 }
 nav ul li i {
@@ -124,11 +134,11 @@ nav ul li + li + li {
 }
 
 .content small {
-    color: #555;
+    color: var(--color-primary-2);
     font-style: italic;
 }
 
 .content p {
-    color: #333;
+    color: var(--color-primary-3);
     line-height: 1.5;
 }

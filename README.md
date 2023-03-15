@@ -214,11 +214,17 @@ How? The content is set by JavaScript using a setInterval function. The progress
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWM4MGZiMmVmYTllNGY3ODFjNTJlNDYwOGNhNTQ4ZDJkYTkzOTE3ZiZjdD1n/DQVYWZD8BpyN1k9go9/giphy.gif" alt="Timed Accordion GIF" width="400">
 
-## Coming soon!
-
 ### Rotating Navigation
 
-Rotate the entire page and show the navigation menu
+What? Rotate the entire page and show the navigation menu.
+
+How? We use JavaScript to apply the class on click. We use CSS transform to rotate elements.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Rotating%20Navigation
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Q2MTM0YWE0NmUzMzQ3NWVlZjM3YjRjNTdmOTJkODBjYTQxMWY3ZSZjdD1n/klhA9mtO7VQ8yD899B/giphy.gif" alt="Rotating Navigation GIF" width="350">
+
+## Coming soon!
 
 ### Sound Board
 
