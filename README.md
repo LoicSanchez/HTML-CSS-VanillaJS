@@ -224,6 +224,26 @@ How? We use JavaScript to apply the class on click. We use CSS transform to rota
 
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Q2MTM0YWE0NmUzMzQ3NWVlZjM3YjRjNTdmOTJkODBjYTQxMWY3ZSZjdD1n/klhA9mtO7VQ8yD899B/giphy.gif" alt="Rotating Navigation GIF" width="350">
 
+### Text Typewriter Effect
+
+What? Animated text that show with a typewriter effect.
+
+How? We use Javascript to add a letter to the element with on a schedule. Note that there are two ways to run the function repeatedly: with setInterval and with a nested setTimeout, great info in this article: https://javascript.info/settimeout-setinterval
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Typewriter
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDk1MmI0MWE0YjdhYTU2ODA2Y2VjYTg2ZjFkNjk1OTY1ZGE4NDRmZCZjdD1n/g15jiZWGAJ4Bk2auqe/giphy.gif" alt="Typewriter GIF" width="350">
+
+### Rain Background
+
+What? A background image animated like the rain.
+
+How? We use CSS to animate the position of a rain picture on top of the background image.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Rain%20Background
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2RhNDkwNWIzNGY5MjI0OTQzMjdmYTNlNTU0MGMzOTllZDQ3OWVmZCZjdD1n/NrT82mapBFNASVJ2Fx/giphy.gif" alt="Rain Background GIF" width="400">
+
 ## Coming soon!
 
 ### Sound Board
@@ -233,8 +253,6 @@ Play sound on click using <audio> elements https://developer.mozilla.org/en-US/d
 ### Custom Range Slider
 
 ### Split Screens Vertical
-
-### Text Typewriter Effect
 
 # VS Code Extensions
 
@@ -252,7 +270,7 @@ Dad Joke API => https://icanhazdadjoke.com/
 
 Create cool gradients => https://cssgradient.io
 
-Create color palettes => https://coolors.co
+Create color palettes + info on colors => https://coolors.co
 
 Design Inspiration => https://dribbble.com
 
