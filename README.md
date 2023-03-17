@@ -254,6 +254,16 @@ How? We use JavaScript to apply a transform translateY, positive on one side and
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWZhNmVhODY4ZmVlNDVhMWYyYTdmZWM0NjVlNzg2Y2JmOWZiZGM1NiZjdD1n/axFpYu8eTs3bppUN97/giphy.gif" alt="Split Screens Vertical GIF" width="400">
 
+### Shapes
+
+What? Animation with shapes.
+
+How? We use JavaScript and the Graphics Canvas element to generate the shapes and their movement. This VanillaJS library can be used for more advanced motion animation.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Shapes
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzU2ZjcyZmFjYWFmNDcyMGNmMGE3OWIzNzkwNzlmMjhmMDdiOGY2NSZjdD1n/9MUxURp6cBCsOK3eEr/giphy.gif" alt="Animated Shapes GIF" width="350">
+
 ## Coming soon!
 
 ### Sound Board
