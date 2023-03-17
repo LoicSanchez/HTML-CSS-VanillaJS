@@ -244,6 +244,16 @@ How? We use CSS to animate the position of a rain picture on top of the backgrou
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2RhNDkwNWIzNGY5MjI0OTQzMjdmYTNlNTU0MGMzOTllZDQ3OWVmZCZjdD1n/NrT82mapBFNASVJ2Fx/giphy.gif" alt="Rain Background GIF" width="400">
 
+### Split Screens Vertical
+
+What? Screen with a vertical split and two ways image scrolling.
+
+How? We use JavaScript to apply a transform translateY, positive on one side and negative on the other.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Split%20Screen%20Vertical
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWZhNmVhODY4ZmVlNDVhMWYyYTdmZWM0NjVlNzg2Y2JmOWZiZGM1NiZjdD1n/axFpYu8eTs3bppUN97/giphy.gif" alt="Split Screens Vertical GIF" width="400">
+
 ## Coming soon!
 
 ### Sound Board
@@ -251,8 +261,6 @@ How? We use CSS to animate the position of a rain picture on top of the backgrou
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
 
 ### Custom Range Slider
-
-### Split Screens Vertical
 
 # VS Code Extensions
 
