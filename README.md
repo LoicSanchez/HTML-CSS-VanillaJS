@@ -234,16 +234,6 @@ How? We use Javascript to add a letter to the element with on a schedule. Note t
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDk1MmI0MWE0YjdhYTU2ODA2Y2VjYTg2ZjFkNjk1OTY1ZGE4NDRmZCZjdD1n/g15jiZWGAJ4Bk2auqe/giphy.gif" alt="Typewriter GIF" width="350">
 
-### Rain Background
-
-What? A background image animated like the rain.
-
-How? We use CSS to animate the position of a rain picture on top of the background image.
-
-✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Rain%20Background
-
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2RhNDkwNWIzNGY5MjI0OTQzMjdmYTNlNTU0MGMzOTllZDQ3OWVmZCZjdD1n/NrT82mapBFNASVJ2Fx/giphy.gif" alt="Rain Background GIF" width="400">
-
 ### Split Screens Vertical
 
 What? Screen with a vertical split and two ways image scrolling.
@@ -263,6 +253,16 @@ How? We use JavaScript and the Graphics Canvas element to generate the shapes an
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Shapes
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzU2ZjcyZmFjYWFmNDcyMGNmMGE3OWIzNzkwNzlmMjhmMDdiOGY2NSZjdD1n/9MUxURp6cBCsOK3eEr/giphy.gif" alt="Animated Shapes GIF" width="350">
+
+### Rain Background
+
+What? A background image animated like the rain.
+
+How? We use CSS to animate the position of a rain picture on top of the background image.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Rain%20Background
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2RhNDkwNWIzNGY5MjI0OTQzMjdmYTNlNTU0MGMzOTllZDQ3OWVmZCZjdD1n/NrT82mapBFNASVJ2Fx/giphy.gif" alt="Rain Background GIF" width="400">
 
 ## Coming soon!
 
