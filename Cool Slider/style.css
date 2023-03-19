@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+    --background-primary: #f5f7fa;
+    --background-secondary: #7b7290;
+
+    --background-image:linear-gradient(135deg, var(--background-primary) 0%, var(--background-secondary) 100%);
+    --primary-light-color: #fff;
+
+    --primary-color: #602675;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: var(--background-image);
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+}
+
+.range-container {
+  position: relative;
+}
+
+input[type='range'] {
+  width: 300px;
+  margin: 18px 0;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range'] + label {
+  background-color: var(--primary-light-color);
+  position: absolute;
+  top: -25px;
+  left: 110px;
+  width: 80px;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Chrome & Safari */
+input[type='range']::-webkit-slider-runnable-track {
+  background: var(--primary-color);
+  border-radius: 4px;
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  margin-top: -7px;
+  cursor: pointer;
+}
+
+/* input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+} */
+
+/* Firefox */
+input[type='range']::-moz-range-track {
+  background: var(--primary-color);
+  border-radius: 4px;
+  width: 100%;
+  height: 13px;
+  cursor: pointer;
+}
+
+input[type='range']::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  margin-top: -7px;
+  cursor: pointer;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+/* input[type=range]:focus::-moz-range-track {
+    background: #ccc;
+} */

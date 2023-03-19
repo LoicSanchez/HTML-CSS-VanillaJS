@@ -264,13 +264,23 @@ How? We use CSS to animate the position of a rain picture on top of the backgrou
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2RhNDkwNWIzNGY5MjI0OTQzMjdmYTNlNTU0MGMzOTllZDQ3OWVmZCZjdD1n/NrT82mapBFNASVJ2Fx/giphy.gif" alt="Rain Background GIF" width="400">
 
+### Cool Slider
+
+What? A styled slider input to select a value in a range.
+
+How? We use CSS to style the basic input range element. We use JavaScript to set the value and position of the label.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Cool%20Slider
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQwM2FmYzQ0NDU5Y2I5Y2I2NzQ0Y2Q3ZWVkNGMyOWY4Yjc2MzM5MSZjdD1n/lrdJq1HCY6qzC7q4V1/giphy.gif" alt="Cool Slider GIF" width="300">
+
 ## Coming soon!
+
+### Hexagon Wall
 
 ### Sound Board
 
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
-
-### Custom Range Slider
 
 # VS Code Extensions
 
