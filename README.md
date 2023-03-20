@@ -274,6 +274,16 @@ How? We use CSS to style the basic input range element. We use JavaScript to set
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQwM2FmYzQ0NDU5Y2I5Y2I2NzQ0Y2Q3ZWVkNGMyOWY4Yjc2MzM5MSZjdD1n/lrdJq1HCY6qzC7q4V1/giphy.gif" alt="Cool Slider GIF" width="300">
 
+### Content Loading Placeholder
+
+What? A styled slider input to select a value in a range.
+
+How? We use CSS to style the basic input range element. We use JavaScript to set the value and position of the label.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Content%20Loading%20Placeholder
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWU0NGU0ODdiOWZiNDk2YmE2YTVmMGRkODdiZTY0OTcyNDcwOWJiYyZjdD1n/qty2F8APZd54xjyAwn/giphy.gif" alt="Content Loading Placeholder GIF" width="350">
+
 ## Coming soon!
 
 ### Hexagon Wall
