@@ -276,9 +276,9 @@ How? We use CSS to style the basic input range element. We use JavaScript to set
 
 ### Content Loading Placeholder
 
-What? A styled slider input to select a value in a range.
+What? An animated placeholder while content is loading.
 
-How? We use CSS to style the basic input range element. We use JavaScript to set the value and position of the label.
+How? We use JavaScript to set the content of the card and remove a class when done. We use CSS to animate the background while the class is there.
 
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Content%20Loading%20Placeholder
 
