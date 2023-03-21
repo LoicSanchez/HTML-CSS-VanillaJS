@@ -286,6 +286,16 @@ How? We use JavaScript to set the content of the card and remove a class when do
 
 ## Coming soon!
 
+### Navbar On Scroll
+
+What? A sticky navbar that changes size and color on scroll.
+
+How? We use JavaScript to listen to the scroll event on the window and add a class when we reach a certain point.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Navbar%20On%20Scroll
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODc5OTM1OGQwMTM5OThkNTQ5MjRkMDFhNjM5YjMwMjcwMjUzYzc4NCZjdD1n/r4zdAdlaxnq2IJ0vL9/giphy.gif" alt="Navbar On Scroll GIF" width="400">
+
 ### Hexagon Wall
 
 ### Sound Board
@@ -302,7 +312,7 @@ cdnjs.com -=> faster and easier way to load library with CDN
 
 Google Fonts => https://fonts.google.com/
 
-Images => https://unsplash.com
+Images => https://unsplash.com & https://www.pexels.com
 
 Dad Joke API => https://icanhazdadjoke.com/
 
