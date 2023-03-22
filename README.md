@@ -302,6 +302,8 @@ How? We have two containers with the same text and different styling. We apply a
 
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Text%20Scrolling
 
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGYxOTk0NjY1MGI1ZjdmOWUyNmUyODhhZGY3OThmNzE3MTkyYTliZiZjdD1n/HaAEvUp1ANizF116H9/giphy.gif" alt="Scrolling Text GIF" width="400">
+
 ## Coming soon!
 
 ### Hexagon Wall
