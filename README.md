@@ -284,8 +284,6 @@ How? We use JavaScript to set the content of the card and remove a class when do
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWU0NGU0ODdiOWZiNDk2YmE2YTVmMGRkODdiZTY0OTcyNDcwOWJiYyZjdD1n/qty2F8APZd54xjyAwn/giphy.gif" alt="Content Loading Placeholder GIF" width="350">
 
-## Coming soon!
-
 ### Navbar On Scroll
 
 What? A sticky navbar that changes size and color on scroll.
@@ -295,6 +293,16 @@ How? We use JavaScript to listen to the scroll event on the window and add a cla
 ✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Navbar%20On%20Scroll
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODc5OTM1OGQwMTM5OThkNTQ5MjRkMDFhNjM5YjMwMjcwMjUzYzc4NCZjdD1n/r4zdAdlaxnq2IJ0vL9/giphy.gif" alt="Navbar On Scroll GIF" width="400">
+
+### Scrolling Text
+
+What? A text animation where the text scrolls horizontally.
+
+How? We have two containers with the same text and different styling. We apply an animation transform to translate them.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Text%20Scrolling
+
+## Coming soon!
 
 ### Hexagon Wall
 
