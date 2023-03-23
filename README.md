@@ -304,13 +304,23 @@ How? We have two containers with the same text and different styling. We apply a
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGYxOTk0NjY1MGI1ZjdmOWUyNmUyODhhZGY3OThmNzE3MTkyYTliZiZjdD1n/HaAEvUp1ANizF116H9/giphy.gif" alt="Scrolling Text GIF" width="400">
 
-## Coming soon!
+### Hover Text Menu
 
-### Hexagon Wall
+What? A menu list with cool text animation on hover.
+
+How? We use CSS to style on hover and add :before and :after to make the text effect.
+
+✨ Live Demo ⇒ https://loicsanchez.github.io/HTML-CSS-VanillaJS/Text%20Hover
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBhNDQ4N2M3ZmFmODEzYjVlNTRlNTU2OGQyZjYxYWEyOGM5MjA4OSZjdD1n/DpGiKrQpG87fVBc8WG/giphy.gif" alt="Hover Text GIF" width="350">
 
 ### Sound Board
 
 Play sound on click using <audio> elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
+## Coming soon!
+
+### Hexagon Wall
 
 # VS Code Extensions
 
